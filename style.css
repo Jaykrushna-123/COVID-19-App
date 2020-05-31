@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    /* background: #eee; */
+    background-image: url(../images/virus-4976408.jpg);
+    background-size: cover;
+     background-position: top;
+  /* background-repeat: no-repeat; */
+} 
+#headerBlock article{
+    background-color: #264285;
+    display: flex;
+}
+#headerBlock article .logo{
+    width: 35%;
+}
+.logo img{
+    margin-left: 45px;
+    padding: 14px 0 12px 0;
+}
+#headerBlock article .text{
+    width: 65%;
+}
+.text h1{
+    color: rgba(51, 246, 214, 0.993);
+    font-size: 29px;
+    font-weight: 700;
+    padding: 35px 0px 18px 0px;
+}
+
+/* body section starts here */
+#bodySection article {
+  padding-top: 12px;
+  padding-bottom: 7px;
+}
+#bodySection article button{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#covidBlock section{
+    display: flex;
+}
+#covidBlock section div{
+    background: rgba(37, 203, 224, 0.945);
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px 1px #eee;
+    margin: 4px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+#covidBlock section div h4 {
+    font-size: 15px;
+    margin: 4px 10px 4px 0px;
+    padding: 7px;
+}
